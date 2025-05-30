@@ -1,0 +1,14 @@
+.permen-border {
+  display: block;
+  margin: 20px auto;                /* Posisi tengah + jarak atas/bawah */
+  width: 250px;
+  border: 6px solid #ff69b4;
+  border-radius: 20px;
+  padding: 6px;
+  background-color: #fff0f5;
+  box-shadow: 0 4px 12px rgba(255, 105, 180, 0.3);
+  transition: transform 0.3s ease;
+}
+.permen-border:hover {
+  transform: scale(1.05);
+}
